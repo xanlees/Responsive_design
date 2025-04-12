@@ -12,11 +12,21 @@ function Meet() {
   return (
     <div className='bg-[#F5F7FA] py-10 '>
       <div className=' container mx-auto max-w-[1320px] p-10 grid grid-cols-1 md:grid-cols-2'>
-        <div className=' relative flex justify-center md:justify-start' >
-            <img src={Tim} alt="" />
+        <div className="flex relative justify-center items-start md:justify-start p-20 md:p-0 ">
+          <div className="relative w-full md:w-1/2 group">
+            {/* Blue background, hidden by default */}
+            <div className="absolute inset-0 bg-[#4CAF4F] rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0"></div>
+
+            {/* Image on top */}
+            <img
+              src={Tim}
+              alt="Tim"
+              className="relative z-10 rounded-lg shadow-lg transform transition-transform duration-500 group-hover:-translate-x-10 group-hover:translate-y-10"
+            />
+          </div>
         </div>
         <div>
-            <p className='text-[#717171] my-5'>
+            <p className='text-[#717171]'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis, sunt doloremque amet quia repellendus atque quasi. Quibusdam obcaecati dolorem aut alias sequi eos assumenda voluptatibus quos labore, culpa suscipit modi rem omnis, voluptatum blanditiis ad aperiam temporibus consectetur id totam deleniti excepturi cupiditate. Molestiae rem praesentium ullam nesciunt corrupti odio earum maxime voluptates ab nemo expedita, tenetur molestias libero!
             </p>
             <h3 className='mt-5 md:mt-0 text-[1.25rem] font-semibold text-[#4CAF4F]'>Tim Smith</h3>

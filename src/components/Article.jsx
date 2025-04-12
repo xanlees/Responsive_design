@@ -14,21 +14,21 @@ function Article() {
                 <div className='my-10'>
                     <div className=' grid grid-cols-1 md:grid-cols-3 gap-10'>
                         <div className='relative m-5 md:m-0'>
-                            <img className='rounded-xl' src={articleImg01} alt="" />
+                            <img className='rounded-xl rotate-0 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom' src={articleImg01} alt="" />
                             <div className=' absolute bg-[#F5F7FA] bottom-[-50px] left-[50%] w-full translate-x-[-50%] max-w-[350px] p-5 shadow-lg rounded-xl '>
                                 <p className=' font-bold text-[1.25rem] text-[#717171] mb-5'>Creating Streamlined safeguarding Processes with OneRen</p>
                                 <a className='flex justify-center items-center text-[#4CAF4F] font-bold' href="">Readmore <HiOutlineArrowNarrowRight className='ml-2' /></a>
                             </div>
                         </div>
                         <div className='relative m-5 md:m-0'>
-                            <img className='rounded-xl' src={articleImg02} alt="" />
+                            <img className='rounded-xl rotate-0 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom' src={articleImg02} alt="" />
                             <div className=' absolute bg-[#F5F7FA] bottom-[-50px] left-[50%] w-full translate-x-[-50%] max-w-[350px] p-5 shadow-lg rounded-xl '>
                                 <p className=' font-bold text-[1.25rem] text-[#717171] mb-5'>Creating Streamlined safeguarding Processes with OneRen</p>
                                 <a className='flex justify-center items-center text-[#4CAF4F] font-bold' href="">Readmore <HiOutlineArrowNarrowRight className='ml-2' /></a>
                             </div>
                         </div>
                         <div className='relative m-5 md:m-0'>
-                            <img className='rounded-xl' src={articleImg03} alt="" />
+                            <img className='rounded-xl rotate-0 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom' src={articleImg03} alt="" />
                             <div className=' absolute bg-[#F5F7FA] bottom-[-50px] left-[50%] w-full translate-x-[-50%] max-w-[350px] p-5 shadow-lg rounded-xl '>
                                 <p className=' font-bold text-[1.25rem] text-[#717171] mb-5'>Creating Streamlined safeguarding Processes with OneRen</p>
                                 <a className='flex justify-center items-center text-[#4CAF4F] font-bold' href="">Readmore <HiOutlineArrowNarrowRight className='ml-2' /></a>
